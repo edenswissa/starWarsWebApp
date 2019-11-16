@@ -1,0 +1,50 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.TableContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 750px;
+    overflow: auto;
+}
+
+.Table {
+    position: relative !important;
+    overflow-y: scroll;
+}
+
+.Cell {
+    background-color: antiquewhite !important;
+}
+
+.CellWhite {
+    background-color: white !important;
+}
+
+.ButtonContainer {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Button {
+    color:#ffcc33 !important;
+    background-color: white !important;
+}
+
+.Button:hover {
+    background-color: #404040 !important;
+}
+
+.Icon {
+    cursor: pointer;
+}

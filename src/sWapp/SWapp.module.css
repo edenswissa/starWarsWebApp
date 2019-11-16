@@ -1,0 +1,12 @@
+.Body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/startsBackground.jpg');
+    background-size: cover;
+}
+
+.Spinner {
+    position: fixed;
+    top: 40vh;
+    left: 46vw;
+}

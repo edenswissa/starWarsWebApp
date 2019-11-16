@@ -1,0 +1,62 @@
+.Paper {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 400px;
+    height: 225px;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form > * {
+    margin: 8px;
+}
+
+.Logo {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.ButtonContainer {
+    margin-top: 10px;
+}
+
+.Button {
+    color:#ffcc33 !important;
+}
+
+.Button:hover {
+    background-color: #404040 !important;
+}
+
+.TextField {
+    width: 325px;
+}
+
+@media (max-width:600px) {
+    .Paper {
+        width: 300px;
+        height: 220px;
+    }
+
+    .TextField {
+        width: 275px;
+    }
+
+    .Logo {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}

@@ -1,0 +1,58 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.Container > * {
+    margin: 10px;
+}
+
+.Paper {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MovieName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.MovieTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ffcc33
+}
+
+.Number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+@media (max-width:600px) {
+    .Paper {
+        width: 400px;
+        height: 50px;
+    }
+
+    .MovieName {
+        font-size: 14px;
+    }
+    
+    .MovieTitle {
+        font-size: 14px;
+    }
+    
+    .Number {
+        font-size: 10px;
+    }
+}
