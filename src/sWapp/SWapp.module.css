@@ -10,3 +10,11 @@
     top: 40vh;
     left: 46vw;
 }
+
+
+@media (max-width:600px) {
+    .Spinner {
+        top: 30vh;
+        left: 35vw;
+    }
+}
