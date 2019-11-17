@@ -13,4 +13,25 @@ Use :
 4. The last page is your suggested movie list , order by the most characters from your favorite list.
 5. In the last page you have Share Button to get link for your next visit.
 
+Technology:
+
+Client written in react.
+
+using - 
+
+1. material ui - for design.
+
+2. axios - for REST calls.
+
+3. react-redux - to manage to global store.
+
+4. react-cookies - to set and get cookies.
+
+5. react-router - to manage routing.
+
+
+css - using flex and adjust the client to moblie by @media query.
+
+
 Enjoy. 
+
